@@ -1,0 +1,99 @@
+body{
+    margin: 0%;
+    width: 100px;
+    height: 96.5vh;
+    background: linear-gradient(128deg, rgba(29,15,184,1) 0%, rgba(255,0,249,1) 100%);
+
+}
+
+.container{
+    margin-left: 190px;
+    margin-top:5px;
+    width: 1000px;
+    height:500px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 7px 8px 20px  black;
+}
+h1{
+    width: 300px;
+  position: relative;
+  top: 120px;
+  left:780px;
+}
+img{
+    width: 400px;
+    position: relative;
+    left:90px;
+    top:80px;
+}
+.all{
+    margin-left: 600px;
+    margin-top: -200px;
+    width: 200px;
+
+}
+a{
+    color: rgb(34, 13, 129);
+}
+a:hover{
+    color: orangered;
+}
+input{
+    width: 200px;
+    height: 27px;
+    border-radius: 30px;
+    background-color: rgb(211, 215, 226);
+    border: none;
+    display: flex;
+    text-align: center;
+}
+button{
+    width: 200px;
+    height: 27px;
+    border-radius: 30px;
+    border-color: black;
+    background-color: rgb(34, 145, 6);
+    border: none;
+    color: white;
+    transition-duration: 1s;
+}
+button:hover{
+    color: black;
+    background-color: white;
+    border:2px black solid;
+    transition-duration: 1s;
+}
+.pass:hover{
+    color:orangered;
+}
+.rem{
+    display: flex;
+    margin-left:1px;
+}
+.rem input{
+    width: 15px;
+   
+}
+.rem span{
+    padding-top: 8px;
+    margin-left: 9px;
+}
+.icon1{
+    position: relative;
+    top: 24px;
+    left: 10px;
+    
+}
+.icon2{
+    position: relative;
+    top: 24px;
+    left: 10px;
+    
+}
+.password{
+    margin-left: 10px;
+}
+.sign{
+    margin-left: 10px;
+}
